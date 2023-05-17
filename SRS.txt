@@ -1,0 +1,112 @@
+
+Project Name:
+	Online Employee Recruitment System
+Abstract:
+     Online Employee Recruitment System is required to fill the gapand ease the process of hiring as well as serching of job for employer and employee or fresher
+ Objective: 
+	 The project entitled “Online Recruitment System” is assignedby the organization.The aim is to provide services to both the Employer and the Graduate by recruiting Graduates according to the employer specifications. The main flow of the project goes as follows.
+
+> The three main users involved in this system are1.Graduate2.Employer3.Administrator
+
+>Graduate is the one who is looking for a job in  some organization who can be either a fresher or an experienced.
+
+>Employer is a resource of the organization who specifies the requirements. From each department only one authorized person acts as an employer.
+
+>Administrator is also a resource of the organization from HRdepartment. He/she acts as a mediator between the employer and the graduate.
+
+>Graduate gives the complete details about his/her Personal,Educational and Skills which can be updated accordingly valid until period of three months.
+
+>Whenever there is a vacancy, the employer comes into play by specifying the requirements which are viewed by the registered graduate.
+
+>Administrator is responsible to intimate the eligible students for that particular post through e-mail and also updates the employee database according to the instructions given by the employer after the complete process of interview.
+
+ 
+Existing System:
+ 
+ The company recruits graduates by maintaining manual records which involves many loop holes.
+Drawbacks:
+1. Redundancy:
+ 	Manual records tend to contain data which are redundant. This isbecause Normalization followed is consistent data base is missingfeature in manual records.
+2. Inconsistency:
+	Because of redundant data, there is no consistency in the data.
+3. Time Consuming:
+	Maintaining each students and employees data with muchnumber of fields is a tedious process and takes more time to retrieveback.
+4. Improper Validation:
+	There are many cases where validation is to be performedbetween the existing data and yet to be entered data. Also, a graduatewho appears for the interview and 	fails to succeed should 
+	not bereconsidered until a period of 3 months.
+5. Tedious:
+	An organization data base goes through many numbers of updates each day which is hard to maintain in registers.
+6. More HR:
+	In order to maintain the information of all the employees andstudents who applied for different jobs a special group of employeesshould be hired, which 		ultimately tends to the waste of resources
+
+
+Introduction
+	The employee recruitment system is a web-based application designed to streamline the process of hiring new employees. The system will provide features for creating and managing job postings, receiving and reviewing job applications, and scheduling interviews.
+
+#Functional Requirements
+
+The system will have the following user types:
+
+	Administrator: A user who manages the system and has full access to all features.
+	Recruiter: A user who creates and manages job postings, receives and reviews job applications, and schedules interviews.
+	Applicant: A user who applies for a job posting.
+
+>The system will have the following features:
+
+Job posting creation: A recruiter can create a new job posting and set its title, description, requirements, salary range, and application deadline.
+Job application submission: Applicants can submit their applications for job postings through the system, including their resumes, cover letters, and any other required documents.
+
+Application review: Recruiters can review job applications and rate them based on criteria such as qualifications, experience, and skills.
+Interview scheduling: Recruiters can schedule interviews with applicants and send them notifications through the system.
+Hiring decision: Recruiters can make hiring decisions based on the results of the application review and interviews.
+
+Applicant: can search for available job according to his skills and interest.
+Approach : Applicant can send email(CV) to recruiter if vacancy are available. 
+Applicant can update their profile whenever they want.
+
+Administrator: can review recruiter and applicant profiles 
+
+
+#Non-Functional Requirements
+
+Performance: 
+	The system should be able to handle a large number of job postings and job applications without significant delays.
+Security:
+	 The system should have secure login and authentication features to protect user data.
+Availability: 
+	The system should be available 24/7, with minimum downtime for maintenance.
+System Requirements
+The system will be developed using the following technologies:
+Front-end: HTML, CSS, JavaScript, ReactJS
+Back-end: Node.js, Express.js, MongoDB
+Hosting: Amazon Web Services (AWS)
+
+Constraints
+The system should be compatible with modern web browsers such as Google Chrome, Mozilla Firefox, and Microsoft Edge.
+The system should follow accessibility guidelines to ensure that it is usable by people with disabilities.
+The system should comply with local laws and regulations regarding hiring practices and data protection.
+
+Assumptions
+Users will have a reliable internet connection to access the system.
+Users will have basic computer skills to use the system.
+The system will be used by small to medium-sized organizations.
+
+Dependencies
+The system will depend on third-party libraries and frameworks, such as ReactJS and Express.js.
+The system will use Amazon Web Services for hosting, which will depend on the availability and reliability of AWS.
+
+Acceptance Criteria
+The system will be considered acceptable if it meets the following criteria:
+The system should be easy to use and intuitive for both recruiters and applicants.
+The system should be reliable and stable, with minimal downtime for maintenance.
+The system should provide accurate and up-to-date information about job postings, applications, and hiring decisions.
+The system should be secure and protect user data from unauthorized access.
+
+Glossary
+Administrator: A user who manages the system and has full access to all features.
+Recruiter: A user who creates and manages job postings, receives and reviews job applications, and schedules interviews.
+Applicant: A user who applies for a job posting.
+Job posting: An advertisement for an open position in an organization.
+Application: A document submitted by an applicant for a job posting, including a resume, cover letter, and any other required documents.
+Interview: A meeting between a recruiter and an applicant to discuss the applicant's qualifications and suitability for a job.
+
